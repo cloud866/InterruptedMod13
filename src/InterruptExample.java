@@ -17,7 +17,7 @@
             };
 
             threadToInterrupt.start();
-            Thread.currentThread().sleep(2500); // 3
+            Thread.currentThread().sleep(2500); //  3
             threadToInterrupt.interrupt();
             threadToInterrupt.join();
             System.out.println("Thread finished");
